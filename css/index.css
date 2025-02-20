@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: goldenrod;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20px;
+    height: 120px;
+}
+
+img.logo {
+    max-height: 100px;
+}
+
+div.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.indice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a.indice {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.indice:hover {
+    text-decoration: underline;
+}
+
+div.parrafos {
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    text-align: justify;
+}
+
+figcaption.pieImagen {
+    font-style: italic;
+}
+
+p.return {
+    text-align: right;
+}
+
+a.return {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}
+
+a.return:hover {
+    text-decoration: underline;
+}
