@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  La parte fija del fichero xml correspondiente a un rss  -->
+<rss version="2.0">
+    <channel>
+        <title>Desencadenados</title>
+        <link>https://josemanuelduartep.github.io</link>
+        <description>Wiki oficial del sistema de rol Desencadenados</description>
+        <!--  La parte fija opcional  -->
+        <language>es-ES</language>
+
+        <image>
+            <title>Desencadenados</title>
+            <url>https://josemanuelduartep.github.io/img/logo.webp</url>
+            <link>https://josemanuelduartep.github.io</link>
+            <width>90</width>
+            <height>36</height>
+        </image>
+
+        <!--  La parte variable, la que corresponde a cada noticia o ítem  -->
+        <item>
+            <title>Introducción</title>
+            <link>https://josemanuelduartep.github.io/index.html</link>
+            <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus viverra finibus.</description>
+            <pubDate>Sat, 22 Feb 2025 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Astra</title>
+            <link>https://josemanuelduartep.github.io/astra.html</link>
+            <description>Quisque placerat tincidunt odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</description>
+            <pubDate>Sat, 22 Feb 2025 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Voluntad</title>
+            <link>https://josemanuelduartep.github.io/voluntad.html</link>
+            <description>Quisque placerat tincidunt odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</description>
+            <pubDate>Sat, 22 Feb 2025 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Devoción</title>
+            <link>https://josemanuelduartep.github.io/devocion.html</link>
+            <description>Quisque placerat tincidunt odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</description>
+            <pubDate>Sat, 22 Feb 2025 12:00:00 GMT</pubDate>
+        </item>
+
+        <item>
+            <title>Calculadora</title>
+            <link>https://josemanuelduartep.github.io/calc.html</link>
+            <description>Quisque placerat tincidunt odio. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</description>
+            <pubDate>Sat, 22 Feb 2025 12:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
