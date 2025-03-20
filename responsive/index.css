@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: goldenrod;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20px;
+    height: 120px;
+}
+
+img.logo {
+    max-height: 130px;
+    max-width: 130px;
+}
+
+img {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+div.titulo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+div.indice {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+a.indice {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.indice:hover {
+    text-decoration: underline;
+}
+
+div.parrafos {
+    margin-left: 1.5cm;
+    margin-right: 1.5cm;
+    text-align: justify;
+}
+
+figcaption.pieImagen {
+    font-style: italic;
+}
+
+p.return {
+    text-align: right;
+}
+
+a.return {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}
+
+a.return:hover {
+    text-decoration: underline;
+}
+
+/*Responsive*/
+
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}S
+    .item2 {grid-area: 2 / span 6;}
+    .item3 {grid-area: 3 / span 6;}
+    .item4 {grid-area: 4 / span 6;}
+    /* El contenedor con clase "indice" se muestra en columna en lugar de en fila */
+    div.indice {display: flex; flex-direction: column;}
+    /* Ajuste de márgenes para los enlaces dentro del índice */
+    a.indice {margin-bottom: -10px; margin-top: -10px;}
+    /* El header se organiza en columna en lugar de en fila */
+    header {display: flex; flex-direction: column;}
+    /* Oculta la imagen con la clase "logo" en pantallas pequeñas */
+    img.logo {display: none}
+    /* Ajusta el tamaño máximo de las imágenes para que sean más visibles en pantallas pequeñas */
+    img {max-width: 100%;max-height: 100%;}
+    /* Reduce el tamaño de la fuente para los pies de imagen */
+    .pieImagen {font-size: 0.8em}
+    /* Ajusta el tamaño máximo del video */
+    video {max-width: 100%;max-height: 100%; margin-top: -90px;}
+    /* Hace que el área de texto del formulario no se desborde*/
+    textarea#comentario {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 1;}
+    .item3 {grid-area: 2 / span 4;}
+    .item4 {grid-area: 3 / span 6;}
+}
+
+@media only screen and (min-width: 768px) {
+    .item1 {grid-area: 1 / span 6;}
+    .item2 {grid-area: 2 / span 1;}
+    .item3 {grid-area: 2 / span 4;}
+    .item4 {grid-area: 2 / span 1;}
+}
